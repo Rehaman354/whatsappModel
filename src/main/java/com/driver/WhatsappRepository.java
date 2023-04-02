@@ -154,6 +154,7 @@ public class WhatsappRepository {
         this.senderMap = new HashMap<Message, User>();
         this.adminMap = new HashMap<Group, User>();
         this.userData = new HashMap<>();
+        this.messageData=new HashMap<>();
         this.customGroupCount = 1;
         this.messageId = 1;
     }
